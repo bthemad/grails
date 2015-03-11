@@ -3,11 +3,13 @@ package com.tekdays
 class TekEvent {
     String name
     String city
-    String organizer
+    TekUser organizer
     String venue
     Date startDate
     Date endDate
     String description
+
+    static hasMany = [volunteers: TekUser, responders: String]
 
     static constraints = {
         name()
