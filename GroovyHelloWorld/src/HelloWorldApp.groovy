@@ -6,10 +6,6 @@ class HelloWorld {
     }
 }
 
-public class HelloWorldApp {
-    static main(args) {
-        def hw = new HelloWorld()
-        hw.name = "Alex"
-        println hw.sayHello()
-    }
-}
+def hw = new HelloWorld()
+hw.name = "Alex"
+println hw.sayHello()
