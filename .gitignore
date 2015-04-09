@@ -3,3 +3,7 @@
 *.class
 .idea
 *.iml
+**/target/*
+**/web-app/WEB-INF/classes
+**/*.war
+**/*.zip
