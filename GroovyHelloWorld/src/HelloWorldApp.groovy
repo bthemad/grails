@@ -2,10 +2,10 @@ class HelloWorld {
     String name
 
     String sayHello() {
-        return "Hello " + name
+        return "Hello ${name}"
     }
 }
 
 def hw = new HelloWorld()
-hw.name = "Alex"
+hw.name = 'Alex'
 println hw.sayHello()
